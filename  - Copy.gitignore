@@ -1,0 +1,17 @@
+
+*.rsp2
+*.json
+*.json
+*.dag
+*.json
+*.rsp2
+*.dwlt
+*.log
+*.log
+*.json
+*.json
+/Library
+.vscode/settings.json
+*.csproj
+*.json
+Temp/
