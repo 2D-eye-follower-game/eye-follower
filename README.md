@@ -1,1 +1,2 @@
-# eye-follower
+# 2d-infinity
+ character movement
