@@ -390,6 +390,8 @@ GameObject:
   - component: {fileID: 1499583904}
   - component: {fileID: 1499583909}
   - component: {fileID: 1499583910}
+  - component: {fileID: 1499583911}
+  - component: {fileID: 1499583912}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -546,7 +548,7 @@ Transform:
   m_GameObject: {fileID: 1499583903}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.48, y: -1.86, z: 0}
+  m_LocalPosition: {x: -4.72, y: -1.86, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 0}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -585,6 +587,32 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65ff0949c21d0954b88e0726c52b91ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firePosition: {fileID: 381382792}
+  projectile: {fileID: 1831023862}
+--- !u!114 &1499583911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499583903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44f024bd58269be428852676eb56d6d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1499583912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499583903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f83c5eeda5a57fe4db09584dc85e5001, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   firePosition: {fileID: 381382792}
