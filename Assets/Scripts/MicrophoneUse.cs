@@ -29,10 +29,7 @@ public class VoiceMovement : MonoBehaviour
         if (body == null) Debug.LogError("Rigidbody2D component is missing!");
     }
 
-    void Update()
-    {
-        // Handle movement or other updates here if needed.
-    }
+   
 
     private void RecognizedSpeech(PhraseRecognizedEventArgs speech)
     {
